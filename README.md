@@ -80,20 +80,33 @@ For this challenge, two separate scripts were created:
 - [cities.csv](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv)
   - csv file containing output from WeatherPy.ipynb. Includes columns: City_ID,City,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Country,Date
 - [Fig1.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig1.png)
-  - 
+  - Latitude vs. Temperature Scatterplot
 - [Fig2.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig2.png)
+  - Latitude vs. Humidity Scatterplot
 - [Fig3.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig3.png)
+  - Latitude vs. Cloudiness Scatterplot
 - [Fig4.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig4.png)
+  - Latitude vs. Wind Speed Scatterplot
 - [Fig5.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig5.png)
+  - Northern Hemisphere Latitude vs. Temperature Scatterplot with Linear Regression
 - [Fig6.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig6.png)
+  - Southern Hemisphere Latitude vs. Temperature Scatterplot with Linear Regression
 - [Fig7.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig7.png)
+  - Northern Hemisphere Latitude vs. Humidity Scatterplot with Linear Regression
 - [Fig8.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig8.png)
+  - Southern Hemisphere Latitude vs. Humidity Scatterplot with Linear Regression
 - [Fig9.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig9.png)
+  - Northern Hemisphere Latitude vs. Cloudiness Scatterplot with Linear Regression
 - [Fig10.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig10.png)
+  - Southern Hemisphere Latitude vs. Cloudiness Scatterplot with Linear Regression
 - [Fig11.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig11.png)
+  - Northern Hemisphere Latitude vs. Wind Speed Scatterplot with Linear Regression
 - [Fig12.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig12.png)
+  - Southern Hemisphere Latitude vs. Wind Speed Scatterplot with Linear Regression
 - [Fig13.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig13.png)
+  - All Sample Cities from cities.csv output: using hvplots.pandas the cities were plotted onto an OpenStreetMap tile.
 - [Fig14.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig14.png)
+  - .png file of hvplots.pandas with filtered cities plotted onto an OpenStreetMap tile. Functionality was included that allows the user to mouseover each city to see the name of the nearest hotel and the country name in Jupyter Notebook.
 
 
   
