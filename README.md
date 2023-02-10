@@ -52,6 +52,21 @@ For this challenge, two separate scripts were created:
 
 
 2. [VacationPy.ipynb](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/VacationPy.ipynb)
-  - 
-  - The list of cities was then filtered down based on a series of ideal meteorological values (e.g. 
-  - 
+  - Using [hvplots.pandas](https://hvplot.holoviz.org/reference/geopandas/points.html) the cities were plotted onto an OpenStreetMap tile:
+
+| All Sample Cities from [cities.csv](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv) output. ([Fig.13](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig13.png)) |
+| ----------- |
+| ![Fig.13](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig13.png) |
+
+  - The list of cities was then filtered down based on a series of ideal meteorological values:
+    -   A max temperature lower than 27 degrees but higher than 21
+    -   Wind speed less than 4.5 m/s
+    -   Zero cloudiness
+  - Using [hvplots.pandas](https://hvplot.holoviz.org/reference/geopandas/points.html) the filtered cities were plotted onto an OpenStreetMap tile:
+
+| Ideal February Vacation Cities filtered from [cities.csv](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv) output. ([Fig.14](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig14.png)) |
+| ----------- |
+| ![Fig.14](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig14.png) |
+
+
+  
