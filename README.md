@@ -4,7 +4,8 @@
 ### Using [citipy Python Library](https://pypi.python.org/pypi/citipy) and [OpenWeatherMap API](https://openweathermap.org/api) to analyze weather patterns and their correlation to latitude.
 
 For this challenge, two separate scripts were created:
-1. [WeatherPy.ipynb](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/WeatherPy.ipynb)
+
+## 1. [WeatherPy.ipynb](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/WeatherPy.ipynb)
   - A randomized list of cities was created 
     - First, a list of randomly chosen latitude/longitude coordinates was generated.
     - This coordinate list was then used with the [citipy Python Library](https://pypi.python.org/pypi/citipy) to generate a list of cities nearest to the random coordinates.
@@ -51,7 +52,7 @@ For this challenge, two separate scripts were created:
 
 
 
-2. [VacationPy.ipynb](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/VacationPy.ipynb)
+## 2. [VacationPy.ipynb](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/VacationPy.ipynb)
   - Using [hvplots.pandas](https://hvplot.holoviz.org/reference/geopandas/points.html) the cities were plotted onto an OpenStreetMap tile:
 
 | All Sample Cities from [cities.csv](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv) output. ([Fig.13](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig13.png)) |
@@ -62,11 +63,37 @@ For this challenge, two separate scripts were created:
     -   A max temperature lower than 27 degrees but higher than 21
     -   Wind speed less than 4.5 m/s
     -   Zero cloudiness
-  - Using [hvplots.pandas](https://hvplot.holoviz.org/reference/geopandas/points.html) the filtered cities were plotted onto an OpenStreetMap tile:
+  - Using [hvplots.pandas](https://hvplot.holoviz.org/reference/geopandas/points.html) the filtered cities were plotted onto an OpenStreetMap tile. Functionality was included that allows the user to mouseover each city to see the name of the nearest hotel and the country name:
 
-| Ideal February Vacation Cities filtered from [cities.csv](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv) output. ([Fig.14](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig14.png)) |
+| Ideal February Vacation Cities filtered from [cities.csv](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv) output with Nearest Hotel Name. ([Fig.14](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig14.png)) |
 | ----------- |
 | ![Fig.14](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig14.png) |
+
+
+## Repo File Contents
+- [README.md](https://github.com/zmoloci/python-api-challenge/blob/main/README.md)
+  - This Readme file.
+- [VacationPy.ipynb](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/VacationPy.ipynb)
+  - Jupyter notebook file. Generates city plot and filtered city/hotel plot.
+- [WeatherPy.ipynb](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/WeatherPy.ipynb)
+  - Jupyter notebook file. Generates list of random cities, outputs into .csv file including: City_ID,City,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Country,Date
+- [cities.csv](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv)
+  - csv file containing output from WeatherPy.ipynb. Includes columns: City_ID,City,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Country,Date
+- [Fig1.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig1.png)
+  - 
+- [Fig2.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig2.png)
+- [Fig3.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig3.png)
+- [Fig4.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig4.png)
+- [Fig5.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig5.png)
+- [Fig6.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig6.png)
+- [Fig7.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig7.png)
+- [Fig8.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig8.png)
+- [Fig9.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig9.png)
+- [Fig10.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig10.png)
+- [Fig11.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig11.png)
+- [Fig12.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig12.png)
+- [Fig13.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig13.png)
+- [Fig14.png](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig14.png)
 
 
   
