@@ -15,20 +15,20 @@ For this challenge, two separate scripts were created:
 | Latitude vs. Temperature ([Fig.1](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig1.png)) |
 | ----------- |
 | ![Fig.1](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig1.png) |
-| ----------- |
+
 | Latitude vs. Humidity ([Fig.2](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig2.png)) |
 | ----------- |
 | ![Fig.2](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig2.png) |
-| ----------- |
+
 | Latitude vs. Cloudiness ([Fig.3](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig3.png)) |
 | ----------- |
 | ![Fig.3](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig3.png) |
-| ----------- |
+
 | Latitude vs. Wind Speed ([Fig.3](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig3.png)) |
 | ----------- |
 | ![Fig.4](https://github.com/zmoloci/python-api-challenge/blob/main/WeatherPy/output_data/Fig4.png) |
-| ----------- |
-| ----------- |
+
+
 
     - Two linear regressions were then performed on each of the above scatter plots, one for cities in the northern hemisphere and one for cities in the southern hemisphere. The regression line was displayed over the scatter plot along with the regression equation.
     - These 8 new scatter plots were manually saved to the [output_data](https://github.com/zmoloci/python-api-challenge/tree/main/WeatherPy/output_data) folder as Fig5.png through Fig12.png
